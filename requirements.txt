@@ -1,0 +1,4 @@
+ultralytics==8.0.58
+numpy==1.24.2
+pandas
+matplotlib
