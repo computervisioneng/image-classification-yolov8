@@ -9,7 +9,7 @@ results = model('./data/weather_dataset/train/sunrise/sunrise1.jpg')  # predict 
 
 names_dict = results[0].names
 
-probs = results[0].probs.tolist()
+probs = results[0].probs.data.tolist()
 
 print(names_dict)
 print(probs)
